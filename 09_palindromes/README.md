@@ -1,3 +1,8 @@
+# I chose to not use regular expressions and built in functions like reverse so it is longer and takes more time.
+
+
+# ########################################################################### 
+
 # Exercise 09 - Palindromes
 
 Write a function that determines whether or not a given string is a palindrome.
