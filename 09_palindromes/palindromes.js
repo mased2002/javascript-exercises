@@ -15,11 +15,11 @@ const palindromes = function (str) {
             }
             
             function removepunct(s){
-                const alaphabet = 'abcdefghijklmnopqrstuvwxyz'
+                const lettersNums = '0123456789abcdefghijklmnopqrstuvwxyz'
                 const alphabetOnly  = []
             let result = null
                 for (letter of s.toLowerCase()){
-                    if(alaphabet.includes(letter)){
+                    if(lettersNums.includes(letter)){
                      alphabetOnly.push(letter)
                     }
                 }
